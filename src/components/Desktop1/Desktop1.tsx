@@ -1,27 +1,41 @@
-import { memo } from 'react';
-import type { FC } from 'react';
+import { memo } from "react";
+import { Link } from "react-router-dom"; // Import Link from React Router
+import type { FC } from "react";
 
-import resets from '../_resets.module.css';
-import classes from './Desktop1.module.css';
+import resets from "../_resets.module.css";
+import classes from "./Desktop1.module.css";
 
 interface Props {
   className?: string;
 }
-/* @figmaId 2:9 */
+
 export const Desktop1: FC<Props> = memo(function Desktop1(props = {}) {
   return (
     <div className={`${resets.storybrainResets} ${classes.root}`}>
       <div className={classes.samVuong}>Sam Vuong</div>
-      <div className={classes.aboutMe}>About me</div>
-      <div className={classes.skills}>Skills</div>
-      <div className={classes.projects}>Projects</div>
+      {/* Use Link component for routing */}
+      <Link to="/about" className={classes.aboutMe}>
+        About me
+      </Link>
+      <Link to="/skills" className={classes.skills}>
+        Skills
+      </Link>
+      <Link to="/projects" className={classes.projects}>
+        Projects
+      </Link>
       <div className={classes.welcomeToMyWebsite}>Welcome to my website</div>
-      <div className={classes.strivingToMakeADifference}>Striving to make a difference</div>
+      <div className={classes.strivingToMakeADifference}>
+        Striving to make a difference
+      </div>
       <div className={classes.hiring}>
-        <div className={classes.hireMe}>Hire Me !</div>
+        <Link to="/hireme" className={classes.hireMe}>
+          Hire Me !
+        </Link>
       </div>
       <div className={classes.projectFrame}>
-        <div className={classes.seeMyProjects}>See my projects</div>
+        <Link to="/projects" className={classes.seeMyProjects}>
+          See my projects
+        </Link>
       </div>
       <div className={classes.hiIMSamSoftwareEngineeringStud}>
         <div className={classes.textBlock}>Hi ! I’m Sam,</div>
