@@ -12,6 +12,7 @@ interface Props {
 export const Desktop1: FC<Props> = memo(function Desktop1(props = {}) {
   return (
     <div className={`${resets.storybrainResets} ${classes.root}`}>
+     
       <div className={classes.samVuong}>Sam Vuong</div>
       {/* Use Link component for routing */}
       <Link to="/about" className={classes.aboutMe}>

@@ -1,0 +1,108 @@
+.root {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  align-items: flex-start;
+  background-color: #fff;
+  overflow: hidden;
+}
+.linkedIn {
+  position: absolute;
+  left: 141px;
+  top: 449px;
+  width: 90px;
+  height: 90px;
+  background-image:/* webpackIgnore: true */ url('/assets/linkedIn.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.envelope {
+  position: absolute;
+  left: 141px;
+  top: 340px;
+  width: 90px;
+  height: 90px;
+  background-image:/* webpackIgnore: true */ url('/assets/envelope.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.smartphone {
+  position: absolute;
+  left: 141px;
+  top: 221px;
+  width: 90px;
+  height: 90px;
+  background-image:/* webpackIgnore: true */ url('/assets/smartphone.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+._412354456 {
+  color: #000;
+  font-size: 36px;
+  font-weight: 200;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 265px;
+  top: 239px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.myContacts {
+  color: #000;
+  font-size: 36px;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 73px;
+  top: 68px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.samvuong263GmailCom {
+  color: #000;
+  font-size: 32px;
+  font-weight: 200;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 265px;
+  top: 350px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.samVuong {
+  color: #000;
+  font-size: 32px;
+  font-weight: 200;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-decoration: underline;
+  position: absolute;
+  left: 265px;
+  top: 464px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.textBlock {
+  display: block;
+}
+.frame2 {
+  position: absolute;
+  left: 802px;
+  top: 424px;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
